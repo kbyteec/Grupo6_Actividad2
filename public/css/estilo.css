@@ -1,0 +1,109 @@
+/* imagen de fondo esquina derecha con tamaño ajustable*/
+body {
+  background-image: url("../img/fondo.jpg");
+
+  background-repeat: no-repeat;     
+  background-position: top right;    
+  background-size: 500px auto;       
+  background-attachment: fixed;     
+  background-color: #1c94a4;        
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Contenedor principal de calculadora y cuadro */
+.container {
+  display: flex;
+  justify-content: flex-start;  
+  align-items: flex-start;      
+  gap: 50px;                   
+  margin-top: 150px;      
+  margin-left: 20px;           
+  flex-wrap: wrap;             
+}
+
+.calculadora {
+  width: 600px;                
+  border-radius: 20px;
+  background-color: #317618ee;  
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.integrantes {
+  background-color: #ffffffcc;  
+  border-radius: 20px;
+  padding: 30px;
+  width: 250px;                
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+.integrantes h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #0c2d48;
+}
+
+.integrantes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.integrantes li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #042c2c;
+}
+
+/* Botones cuadrados */
+button {
+  border-radius: 0px !important;
+}
+
+/* Tarjetas  */
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 700px;
+  padding: 30px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3); 
+  background-color: #000;         
+}
+
+.card h1, 
+.card h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.card ul li {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.card.bg-black, 
+.card.bg-black .list-group-item {
+  color: white;
+  background-color: #000 !important;
+}
+
+/* Pantalla de la calculadora */
+#pantalla {
+  font-size: 50%;
+  height: 100px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 10px;
+  background-color: #b0b7ba;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+
+  font-family: 'Tahoma', sans-serif;
+  color: #030422;
+}
+
