@@ -12,7 +12,7 @@ Morales Velasco Marcos Moises //
 
 Estructura:
 
-PRY_NOMBRE_PROYECTO
+PRY_GRUPO_SEIS
 public
 css
 js
