@@ -14,7 +14,7 @@
 
   </head>
 
-  <body class="bg-light">
+  <body class="bg-light mb-5">
 
      <!-- Header con imagen de fondo -->
     <div class="row mb-3 align-items-center">
@@ -37,6 +37,14 @@
             <input type="text" id="pantalla" class="form-control mb-3 text-end fs-3" readonly>
 
             <div class="row g-2">
+            <div class="row g-2">
+              <div class="col"><button class="btn btn-dark w-100 fs-4" onclick="borrar()">C</button></div>
+              <div class="col"><button class="btn btn-info w-100 fs-4" onclick="operadorUnario('sq')">x²</button></div>
+              <div class="col"><button class="btn btn-info w-100 fs-4" onclick="operadorUnario('sqrt')">√</button></div>
+              <div class="col"><button class="btn btn-info w-100 fs-4" onclick="operadorUnario('percent')">%</button></div>
+              <div class="col"><button class="btn btn-info w-100 fs-4" onclick="operadorUnario('negate')">+/-</button></div>
+            </div>
+            
             <!-- primera fila de la calculadora con las teclas 7,8,9,/ -->
             <div class="col-3"><button class="btn btn-primary w-100 fs-4" onclick="agregar('7')">7</button></div>
             <div class="col-3"><button class="btn btn-primary w-100 fs-4" onclick="agregar('8')">8</button></div>
