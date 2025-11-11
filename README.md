@@ -26,17 +26,21 @@ JavaScript (ES6) ... Control lógico, manejo de eventos y cálculos.
 CSS ................ Estilos personalizados (archivo estilo.css).
 
 ----------------------------------------------------------
-💻 ESTRUCTURA DEL PROYECTO
-Calculadora-ESPEcial/
-│
+## 💻 Estructura del proyecto
+
+```bash
+📂 Calculadora-ESPEcial/
 ├── index.html
 ├── script.js
 ├── css/
 │   └── estilo.css
 ├── public/
-│   ├── img/fondo.jpg
-│   └── vendor/bootstrap-5.3.8-dist/
-└── README.txt
+│   ├── img/
+│   │   └── fondo.jpg
+│   └── vendor/
+│       └── bootstrap-5.3.8-dist/
+└── README.md
+```
 
 ----------------------------------------------------------
 🧠 LÓGICA DE JAVASCRIPT
