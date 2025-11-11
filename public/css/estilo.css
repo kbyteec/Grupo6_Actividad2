@@ -1,6 +1,5 @@
-/* imagen de fondo esquina derecha con tamaño ajustable*/
+  /* imagen de fondo esquina derecha con tamaño ajustable*/
 body {
-  background-image: url("../img/fondo.jpg");
 
   background-repeat: no-repeat;     
   background-position: top right;    
@@ -14,18 +13,16 @@ body {
 
 
 /*Contenedor principal de calculadora y cuadro */
-.container {
-  display: flex;
-  justify-content: flex-start;  
-  align-items: flex-start;      
-  gap: 50px;                   
-  margin-top: 150px;      
-  margin-left: 20px;           
-  flex-wrap: wrap;             
+.header{
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
-
 .calculadora {
-  width: 600px;                
+  display: grid;
+  gap: 21px;
+  place-items: center;
+  width: 100%;
   border-radius: 20px;
   background-color: #317618ee;  
   padding: 20px;
@@ -36,7 +33,7 @@ body {
   background-color: #ffffffcc;  
   border-radius: 20px;
   padding: 30px;
-  width: 250px;                
+  width: 100%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
@@ -62,14 +59,13 @@ body {
 
 /* Botones cuadrados */
 button {
-  border-radius: 0px !important;
+  border-radius: 0px 
 }
 
 /* Tarjetas  */
 .card {
   border-radius: 20px;
   overflow: hidden;
-  width: 700px;
   padding: 30px;
   box-shadow: 0 5px 25px rgba(0,0,0,0.3); 
   background-color: #000;         
@@ -106,4 +102,3 @@ button {
   font-family: 'Tahoma', sans-serif;
   color: #030422;
 }
-
