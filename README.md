@@ -4,11 +4,11 @@ Desarrollar una calculadora básica que permita realizar las cuatro operaciones 
 Equipo
 
 Ramas 
-Maria Jose Haro                             Calculadora-ESPEcial
-Betún Vergara Issac Geovanny
-Díaz Chavez Diego Roberto
-Enriquez Sánchez Cristina Belén
-Morales Velasco Marcos Moises
+Maria Jose Haro                             Calculadora-ESPEcial //
+Betún Vergara Issac Geovanny //
+Díaz Chavez Diego Roberto //
+Enriquez Sánchez Cristina Belén //
+Morales Velasco Marcos Moises //
 
 Estructura:
 
