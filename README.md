@@ -124,7 +124,8 @@ Los botones de la calculadora están enlazados con las funciones JavaScript medi
 La interfaz fue construida con Bootstrap 5, utilizando contenedores, filas y columnas para garantizar una disposición responsive.  
 Los botones usan clases contextuales (btn-primary, btn-info, btn-warning) para mejorar la accesibilidad.
 
-<img width="442" height="226" alt="image" src="https://github.com/user-attachments/assets/ba8b92ce-80e1-4e03-a52f-86c4b6c0b687" />
+<img width="442" height="331" alt="image" src="https://github.com/user-attachments/assets/b5d9cb17-b1df-4d5d-ae30-2f4eeb73622a" />
+
 <img width="216" height="334" alt="image" src="https://github.com/user-attachments/assets/e20c5781-966e-44ac-b20e-37c7c57758e9" />
 
 
