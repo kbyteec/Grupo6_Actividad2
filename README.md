@@ -52,22 +52,23 @@ function agregar(valor) {
   document.getElementById("pantalla").value += valor;
 }
 
-[Espacio para imagen: vista de la calculadora al ingresar números]
+<img width="213" height="332" alt="image" src="https://github.com/user-attachments/assets/a3400bb0-1f7a-4de5-aed1-2782677fe6cd" />
 
 ----------------------------------------------------------
 2. Función borrar()
 Limpia la pantalla, permitiendo reiniciar el cálculo.
 
+```javascript
 function borrar() {
   document.getElementById("pantalla").value = "";
 }
-
-[Espacio para imagen: demostración del botón “C”]
+```
+<img width="213" height="332" alt="image" src="https://github.com/user-attachments/assets/20aa70af-db54-49df-b70e-359d9e9ce385" />
 
 ----------------------------------------------------------
 3. Función operadorUnario(operador)
 Gestiona operaciones unarias como elevar al cuadrado, raíz cuadrada, porcentaje y cambio de signo.
-
+```javascript
 function operadorUnario(operador) {
   const pantalla = document.getElementById("pantalla");
   let valorActual = pantalla.value;
@@ -84,13 +85,15 @@ function operadorUnario(operador) {
     pantalla.value = "Error";
   }
 }
+```
+<img width="215" height="257" alt="image" src="https://github.com/user-attachments/assets/53be1317-f687-43a4-9ce6-13f607091f1a" />
+<img width="217" height="257" alt="image" src="https://github.com/user-attachments/assets/a6ff2364-118a-499a-9496-5d830b5fa3b1" />
 
-[Espacio para imagen: ejemplo de operación √ o x²]
 
 ----------------------------------------------------------
 4. Función calcular()
 Evalúa la expresión completa mediante eval() y muestra el resultado.
-
+```javascript
 function calcular() {
   const pantalla = document.getElementById("pantalla");
   if (pantalla.value === "Error") pantalla.value = "";
@@ -100,26 +103,30 @@ function calcular() {
     pantalla.value = "Error";
   }
 }
+```
+<img width="201" height="241" alt="image" src="https://github.com/user-attachments/assets/0687d25a-0027-485c-8d58-8c2fa4ae1394" />
+<img width="200" height="238" alt="image" src="https://github.com/user-attachments/assets/c2fc70e2-3fcb-4f70-b1df-b54824cf949e" />
 
-[Espacio para imagen: resultado de una operación completa]
 
 ----------------------------------------------------------
 🧱 INTEGRACIÓN CON HTML
 Los botones de la calculadora están enlazados con las funciones JavaScript mediante el atributo onclick.
-
+```html
 <button class="btn btn-primary" onclick="agregar('7')">7</button>
 <button class="btn btn-dark" onclick="borrar()">C</button>
 <button class="btn btn-warning" onclick="calcular()">=</button>
-
-[Espacio para imagen: fragmento del HTML mostrando los botones y su vínculo con las funciones JS]
+```
+<img width="442" height="53" alt="image" src="https://github.com/user-attachments/assets/3e93c272-c3bf-467f-be10-b0f05a6f0bb3" />
+<img width="442" height="226" alt="image" src="https://github.com/user-attachments/assets/aa3b2c2b-6ef7-43d9-b517-924a720aa538" />
 
 ----------------------------------------------------------
 📱 INTERFAZ DE USUARIO
 La interfaz fue construida con Bootstrap 5, utilizando contenedores, filas y columnas para garantizar una disposición responsive.  
 Los botones usan clases contextuales (btn-primary, btn-info, btn-warning) para mejorar la accesibilidad.
 
-[Espacio para imagen: interfaz completa en modo escritorio]
-[Espacio para imagen: interfaz en vista móvil o responsiva]
+<img width="442" height="226" alt="image" src="https://github.com/user-attachments/assets/ba8b92ce-80e1-4e03-a52f-86c4b6c0b687" />
+<img width="216" height="334" alt="image" src="https://github.com/user-attachments/assets/e20c5781-966e-44ac-b20e-37c7c57758e9" />
+
 
 ----------------------------------------------------------
 🧩 MEJORAS FUTURAS
@@ -143,7 +150,3 @@ Grupo 6 – Universidad de las Fuerzas Armadas ESPE
 - MDN Web Docs – JavaScript Guide: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide
 - W3Schools – JavaScript Functions: https://www.w3schools.com/js/js_functions.asp
 
-----------------------------------------------------------
-NOTA:
-Agrega tus capturas de pantalla en la carpeta 'img' del proyecto y reemplaza los espacios [Espacio para imagen: ...]
-por enlaces o nombres de archivo correspondientes.
