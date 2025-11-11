@@ -1,9 +1,3 @@
-// Archivo: PRY_CALCULADORA_GRUPO/public/js/calculadora.js
-
-/**
- * Función principal que realiza la operación aritmética seleccionada.
- * @param {string} operacion - El operador aritmético ('+', '-', '*', '/').
- */
 function calcular(operacion) {
     // 1. Obtener los elementos de la interfaz por su ID
     const inputNum1 = document.getElementById('numero1');
